@@ -1,0 +1,84 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.toDo-box{
+background-color: hwb(182 1% 74%);
+padding: 1em;
+border-radius: 1em;
+width: 50vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.toDo-box h2{
+  color:white;
+  font-size: 2rem;
+  border-bottom: 2px solid white;
+  padding: 0.3em 0em;
+}
+.taskArea{
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em
+
+  
+}
+.addBtnInput{
+  display: flex;
+  flex-direction: row;
+}
+.taskArea input{
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+  border:none;
+  cursor: pointer;
+  margin: 0px 5px;
+  padding: 0.4em 0.4em; 
+}
+button{
+  
+  font-size: 1rem;
+  border-radius: 10px;
+  border:none;
+  cursor: pointer;
+}
+ .order{
+ display: flex;
+ flex-direction: column;
+ gap: 0.8em;
+ padding:0px;
+ width: 100%;
+}
+.order li{
+  gap: 1em;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  color:rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.527);
+  display: flex;
+  height: 2em;
+  border-radius: 4px;
+  padding: 0.4em 0.7em;
+
+}
+.add-btn{
+  padding: 0.5em 1em;
+  background-color: lightgreen;
+}
+.remove-btn{
+  padding: 0.5em 1em;
+  background-color: red;
+  Color:white;
+}
